@@ -1,0 +1,304 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa; /* Light gray background */
+    color: #343a40; /* Dark text color */
+}
+
+a {
+    color: #007BFF; /* Blue link color */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Header Styles */
+header {
+    background-color: #ffffff; /* White background for header */
+    padding: 20px;
+    border-bottom: 1px solid #dee2e6; /* Light gray border */
+}
+
+.header-title {
+    font-size: 36px;
+    margin: 0;
+}
+
+.header-subtitle {
+    font-size: 18px;
+    color: #6C757D; /* Muted gray text color */
+    margin: 0;
+}
+
+/* Section Styles */
+section {
+    padding: 50px 0;
+}
+
+.section-title {
+    font-size: 24px;
+    margin-bottom: 30px;
+    color: #007BFF; /* Blue section title color */
+}
+
+/* Button Styles */
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #ffffff; /* White text color */
+    background-color: #28A745; /* Green button color */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #218838; /* Darker green on hover */
+}
+
+/* Footer Styles */
+footer {
+    background-color: #343a40; /* Dark background for footer */
+    color: #ffffff; /* White text color */
+    padding: 20px;
+    text-align: center;
+}
+
+/* Container Styles */
+.container {
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 0 15px;
+}
+
+/* Image Styles */
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+/* New Styles for Skill Cards */
+.skill-cards .card {
+    background-color: lightgray;
+    border: none;
+    border-radius: 10px;
+    transition: transform 0.2s;
+}
+
+.skill-cards .card:hover {
+    transform: scale(1.05);
+}
+
+.skill-cards .card-title {
+    font-size: 20px;
+    margin-bottom: 0;
+}
+
+/* Additional Hover Effect */
+.skill-cards .card-body {
+    padding: 1.5rem;
+}
+
+.skill-cards .card-body:hover {
+    background-color: lightblue;
+}
+
+/* New Styles for Project Cards*/ 
+.project .card {
+    background-color: #f9f9f9;
+    border: none;
+    border-radius: 10px;
+    transition: transform 0.2s;
+    height: 100%;
+}
+
+.project .card:hover {
+    transform: scale(1.05);
+}
+
+.project .card-list {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+/* Additional Styles for Education Section */
+#education {
+    background-color: #edf5e1; /* Light greenish background */
+    padding: 50px 0;
+}
+
+.education-date {
+    font-weight: bold;
+    font-size: 18px;
+    margin: 0;
+}
+
+.education-location {
+    color: #007BFF; /* Blue text color */
+    font-size: 24px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.education-degree {
+    font-size: 30px;
+    margin: 0;
+}
+
+.education-details {
+    font-size: 18px;
+    line-height: 1.6;
+    margin: 10px 0 0;
+}
+
+.education-logo img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Certificates Section Styles */
+#certificates {
+    background-color: #e6f7ff; /* Light blue background */
+    padding: 50px 0;
+}
+
+.certificate-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.certificate-list li {
+    margin-bottom: 20px;
+}
+
+.certificate-list h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.sub-list {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+.certificate-list p {
+    font-size: 16px;
+    color: #555555;
+    margin: 0;
+}
+
+/* Contact Section Styles */
+#contact {
+    background-color: #f8f9fa; /* Light gray background */
+    padding: 50px 0;
+    text-align: center;
+}
+
+.contact-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.contact-list li {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.contact-list li a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+.contact-list li a:hover {
+    text-decoration: underline;
+}
+
+.social-links {
+    list-style-type: none;
+    padding: 0;
+}
+
+.social-links li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.social-links img {
+    max-width: 40px;
+    height: auto;
+}
+
+/* Add this to your CSS file */
+#resume {
+    background-color: #f8f9fa; /* Light grey background color */
+    padding: 50px 0;
+}
+
+.resume-content {
+    max-width: 800px;
+    margin: auto;
+    text-align: left;
+}
+
+
+/* Footer Styles */
+footer {
+    background-color: #343a40; /* Dark background for footer */
+    color: #ffffff; /* White text color */
+    padding: 50px 0;
+    text-align: center;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+footer ul li {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+footer ul li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+footer ul li a:hover {
+    text-decoration: underline;
+}
+
+#scrollToTopContainer {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 9999;
+    margin-bottom: 100px; 
+    background-color: white; 
+    padding: 10px; 
+}
+
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .header-title {
+        font-size: 28px;
+    }
+
+    .header-subtitle {
+        font-size: 16px;
+    }
+
+    .section-title {
+        font-size: 20px;
+    }
+
+    .button {
+        font-size: 14px;
+    }
+}
